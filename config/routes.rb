@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
+  resources :answers
+
+  resources :questions
+  resources :bet_sheets
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'home#index'
+  get '/new' => 'bet_sheets#new', as: :new_sheet
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

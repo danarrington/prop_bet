@@ -6,6 +6,7 @@ Needs
 - Admin page
   - Delete entries
   - Mark answers
+  - Approve entries as paid
 
 Todo
 - Create bet sheet
