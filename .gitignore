@@ -29,3 +29,6 @@ pickle-email-*.html
 # /vendor/assets/bower_components
 # *.bowerrc
 # bower.json
+*.swp
+
+db/migrate/.20150131062310_create_bet_sheets.rb.swp

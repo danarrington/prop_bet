@@ -1,0 +1,31 @@
+Needs
+- Entry page with button to create new bet sheet or view existing
+- Page to fill out sheet
+  - Save a cookie to edit until kickoff?
+  - Can't submit after kickoff
+- Admin page
+  - Delete entries
+  - Mark answers
+
+Todo
+- Create bet sheet
+ - field per question
+ - Name
+ - Master field for answers
+- Welcome page
+  - Shows signup or view
+  - Signup just goes to bet sheet
+- Bet sheet
+ - Saves a cookie so you skip the entry page
+
+
+Question Model
+
+Question
+ - text
+
+ Answer
+ - question_id
+ - text
+
+
