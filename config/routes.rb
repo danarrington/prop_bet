@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'home#index'
   get '/new' => 'bet_sheets#new', as: :new_sheet
+  get '/view' => 'bet_sheets#index', as: :view
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

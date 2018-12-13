@@ -1,0 +1,9 @@
+.container
+  .row
+    .col-md-6.col-offset-md-6
+      h2 View All 
+      -@sheets.each do |sheet|
+        p
+          =link_to sheet.name, sheet
+
+

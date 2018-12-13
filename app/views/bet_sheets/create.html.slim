@@ -1,0 +1,11 @@
+.container
+  .row
+    .col-md-6.col-offset-md-3
+      h3 Your picks have been submitted
+      p Once you've paid Bob he'll approve your sheet and it will be entered.
+        If you've already paid, let him know he needs to approve your sheet.
+        You can review your picks below
+      -@sheet.picks.each do |pick|
+        h3 = pick.answer.question.text
+        p = pick.answer.text
+        

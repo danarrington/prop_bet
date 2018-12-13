@@ -1,0 +1,8 @@
+.container
+  .row
+    .col-md-6.col-offset-md-6
+      h2 #{@sheet.name}'s Sheet
+      -@sheet.picks.each do |pick|
+        h3 =pick.answer.question.text
+        h4 =pick.answer.text
+
